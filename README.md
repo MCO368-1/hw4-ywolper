@@ -13,7 +13,6 @@ Use your (updated) TempConverter code to perform all computations.
 
 ## Note
 
-1. Run the starter code that has a button and dropdown
 2. Use online resources to fill in any gaps in your knowledge
 
 1. Use best practices and clean code
