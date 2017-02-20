@@ -29,32 +29,32 @@ namespace WindowsFormsTempConverter
 
         public static decimal FahrenheitToCelsius(decimal temp)
         {
-            return (temp - 32) / (decimal)1.8;
+            return (temp - 32) / 1.8m;
         }
 
         public static decimal CelsiusToFahrenheit(decimal temp)
         {
-            return (temp * (decimal)1.8) + 32;
+            return (temp * 1.8m) + 32;
         }
 
         public static decimal KelvinToCelsius(decimal temp)
         {
-            return temp - (decimal)273.15;
+            return temp - 273.15m;
         }
 
         public static decimal CelsiusToKelvin(decimal temp)
         {
-            return temp + (decimal)273.15;
+            return temp + 273.15m;
         }
 
         public static decimal FahrenheitToKelvin(decimal temp)
         {
-            return (temp + (decimal)459.67) * (decimal)5.0 / (decimal)9.0;
+            return (temp + 459.67m) * 5.0m / 9.0m;
         }
 
         public static decimal KelvinToFahrenheit(decimal temp)
         {
-            return (temp * (decimal)9.0 / (decimal)5.0) - (decimal)459.67;
+            return (temp * 9.0m / 5.0m) - 459.67m;
         }
     }
 }
